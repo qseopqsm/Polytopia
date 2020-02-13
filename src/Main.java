@@ -1,4 +1,5 @@
-import INTERFAZ.INTERFAZ;
+import INTERFAZ.InterMapa;
+import INTERFAZ.Interfaz;
 import JUGADOR.Jugador;
 import MAPA.Map;
 import MAPA.MapGenerator;
@@ -12,7 +13,8 @@ public class Main {
         Map mapa = new Map(new MapTransformer(new MapGenerator(100,100)));
         Jugador jugador = new Jugador();
         jugador.setPosicion(new Point(50,50));
-        INTERFAZ in = new INTERFAZ(mapa,jugador);
+
+        Interfaz interfa =  new Interfaz();
     }
 
 }

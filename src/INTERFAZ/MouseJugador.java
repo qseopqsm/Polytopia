@@ -9,10 +9,10 @@ import java.awt.event.MouseListener;
 
 public class MouseJugador  implements MouseListener {
 
-    INTERFAZ interfaz;
+    InterMapa interfaz;
     Jugador jugador;
     Map map;
-    MouseJugador(INTERFAZ interfaz, Jugador jugador, Map map){
+    MouseJugador(InterMapa interfaz, Jugador jugador, Map map){
         this.interfaz = interfaz;
         this.jugador = jugador;
         this.map = map;

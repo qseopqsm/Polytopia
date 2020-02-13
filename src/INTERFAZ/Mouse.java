@@ -2,12 +2,11 @@ package INTERFAZ;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 public class Mouse implements MouseMotionListener {
-    INTERFAZ interfaz;
-    Mouse(INTERFAZ interfaz){
+    InterMapa interfaz;
+    Mouse(InterMapa interfaz){
         this.interfaz = interfaz;
     }
 

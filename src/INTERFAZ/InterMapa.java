@@ -10,10 +10,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class INTERFAZ extends JFrame {
+public class InterMapa extends JFrame {
 
 
-    Container Panel_mapa;
+   static Container Panel_mapa;
     Container contenedor;
     JLabel[][] label;
     JLabel Jugad;
@@ -33,7 +33,7 @@ public class INTERFAZ extends JFrame {
 
 
 
-    public INTERFAZ(Map c, Jugador j) {
+    public InterMapa(Map c, Jugador j) {
         this.m = c;
         this.j = j;
 
